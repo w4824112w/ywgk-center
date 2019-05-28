@@ -1,0 +1,6 @@
+version: '2.1'
+services:
+  eureka:
+    image: ywgk-center
+    ports:
+      - "8761:8761"
